@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin:auto;
+    text-align: center;
+}
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+.container{
+    width: 80%;
+    color: white;
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+.row .col{
+    float: left;
+    width: calc(100% / 3);
+    background-color: black;
+    text-align: left;
+}
+img{
+    height: 5rem;
+    float: left;
+}
+.row{
+    display: inline-block;
+    width: 100%;
+}
+.black{
+    color: black;
+}
+.py{
+    padding: 0.8rem;
+    float: left;
+}
