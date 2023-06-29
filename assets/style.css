@@ -2,19 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+h1{
+    color: #e53170;
+    padding: 2rem;
 }
 body{
     margin:auto;
     text-align: center;
 }
-/* .clearfix::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
-  } */
+  }
 .container{
     width: 80%;
-    color: white;
     max-width: 1170px;
     margin: 0 auto;
     
@@ -22,21 +26,32 @@ body{
 .row .col{
     float: left;
     width: calc(100% / 3);
-    background-color: black;
     text-align: left;
+    padding: 0.1rem;
+    
 }
 img{
-    height: 5rem;
+    height: 6rem;
     float: left;
 }
 .row{
     display: inline-block;
     width: 100%;
 }
-.black{
-    color: black;
+.intro{
+    padding: 2rem;
 }
 .py{
-    padding: 0.8rem;
+    padding: 0.8rem;    
     float: left;
+}
+.palle{
+    margin: 1.3rem 0.8rem;
+    background-color: black;
+    box-shadow: 0 0 0.5rem darkgrey;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #54c2d9;
 }
